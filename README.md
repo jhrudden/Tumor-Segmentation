@@ -22,7 +22,7 @@ Alternatively, you can create a conda environment using the following commands:
 
 ```bash
 conda env create -f environment.yaml
-conda activate ai_project_env
+conda activate tumor-segmentation
 ```
 
 ### Step 2: Setting Up Pre-commit Hooks
@@ -57,9 +57,9 @@ Follow the instructions to set up your Kaggle API credentials. You can find the 
 
 Refer to the `notebooks/downloading_datasets.ipynb` notebook for step-by-step instructions on using the Kaggle API to download the datasets required for this project. The datasets will be downloaded to the `./datasets` folder, which is configured to be ignored by git.
 
-## Loading Classification Dataset
+## Loading Datasets
 
-For an example of how to load the classification dataset, see the `notebooks/dataloader_example.ipynb` notebook. This notebook demonstrates how to use the `TumorClassificationDataset` class to load either the Training or Testing split from the [Tumor Classification Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset).
+For an example of how to load the classification or segmentation datasets, see the `notebooks/classification_dataloader_example.ipynb` and `notebooks/segmentation_dataloader_example.ipynb`, respectively.
 
 ## Run Experiments:
 
