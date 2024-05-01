@@ -1,25 +1,25 @@
-name: ai_project_env
+name: tumor-segmentation
 channels:
-  - conda-forge
-  - pytorch
-  - defaults
+    - conda-forge
+    - pytorch
+    - defaults
 dependencies:
-  - jupyter
-  - matplotlib
-  - numpy
-  - pandas
-  - python=3.11
-  - scikit-learn
-  - scipy
-  - torchaudio
-  - torchmetrics
-  - torchvision
-  - kaggle
-  - torchinfo
-  - python-dotenv
-  - wandb
-  - pytorch
-  - pytorch-cuda=12.1
-  - bayesian-optimization
-  - plotly
-  - seaborn
+    - jupyter
+    - matplotlib
+    - numpy
+    - pandas
+    - python=3.11
+    - scikit-learn
+    - scipy
+    - torchaudio
+    - torchmetrics
+    - torchvision
+    - kaggle
+    - torchinfo
+    - python-dotenv
+    - wandb
+    - pytorch
+    - pytorch-cuda=12.1
+    - bayesian-optimization
+    - plotly
+    - seaborn

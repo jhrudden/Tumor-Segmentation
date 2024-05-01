@@ -1,4 +1,4 @@
-# Brain Cancer Classifier and Segmentation
+# Brain Cancer Segmentation
 
 ## Datasets
 
